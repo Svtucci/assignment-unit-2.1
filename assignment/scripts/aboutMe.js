@@ -23,7 +23,7 @@ let food = 'Pizza'
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 0
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendPets = 1
+let friendsPets = 1
 // 11 - Add two pets to your `pets` variable
 pets += 2
 console.log(pets);
@@ -69,6 +69,16 @@ else if(pets >= allowedPets){
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 
+ 
+
+if (pets < friendsPets){
+    mostPets = friendsPets;  
+    console.log(mostPets) 
+}
+else if(friendsPets < pets){
+    mostPets = pets;
+    console.log(mostPets)
+}
 
 
 
